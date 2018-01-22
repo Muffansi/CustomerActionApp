@@ -22,15 +22,11 @@
   </ItemGroup>
 
   <ItemGroup>
-    <None Remove="ClientApp\app\components\CustomerActions\actions.component.ts" />
-    <None Remove="ClientApp\app\components\CustomerActions\actions.service.ts" />
     <None Remove="ClientApp\app\components\Customer\customer.component.ts" />
     <None Remove="ClientApp\app\components\Customer\customer.service.ts" />
   </ItemGroup>
 
   <ItemGroup>
-    <TypeScriptCompile Include="ClientApp\app\components\CustomerActions\actions.component.ts" />
-    <TypeScriptCompile Include="ClientApp\app\components\CustomerActions\actions.service.ts" />
     <TypeScriptCompile Include="ClientApp\app\components\Customer\customer.component.ts" />
     <TypeScriptCompile Include="ClientApp\app\components\Customer\customer.service.ts" />
   </ItemGroup>
